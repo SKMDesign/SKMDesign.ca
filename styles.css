@@ -1,0 +1,163 @@
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Global styles */
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+  }
+  
+  /* Header styles */
+  header {
+    background-color: #109df5;
+    padding: 20px;
+  }
+
+  .logo {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  .logo img {
+    height: 40px; /* Adjust the height to fit your logo */
+    vertical-align: middle;
+  } 
+
+  header h1 {
+    position: relative;
+    text-align: center;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+  }
+  
+  nav ul li {
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  /* Hero section styles */
+  #hero {
+    text-align: center;
+    padding: 100px 0;
+    background-color: #f9f9f9;
+  }
+  
+  #hero h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  #hero p {
+    font-size: 18px;
+    color: #777;
+    margin-bottom: 30px;
+  }
+  
+  .cta-button {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .cta-button:hover {
+    background-color: #555;
+  }
+  
+  /* Gallery section styles */
+  #gallery {
+    padding: 50px;
+  }
+  
+  #gallery h2 {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .artwork {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .artwork img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+  
+  .artwork h3 {
+    font-size: 24px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+  }
+  
+  .artwork p {
+    font-size: 16px;
+    color: #777;
+  }
+  
+  .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn:hover {
+    background-color: #555;
+  }
+  
+  /* Testimonials section styles */
+  #testimonials {
+    padding: 50px;
+    background-color: #f9f9f9;
+  }
+  
+  #testimonials h2 {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .testimonial {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  blockquote {
+    font-style: italic;
+    color: #555;
+    margin-bottom: 10px;
+  }
+  
+  cite {
+    font-weight: bold;
+  }
+  
+  /* Footer styles */
+  footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #f5f5f5;
+    color: #777;
+  }
+  
